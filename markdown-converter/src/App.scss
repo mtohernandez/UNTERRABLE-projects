@@ -1,0 +1,26 @@
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/variables";
+
+.textarea-el {
+  &:focus {
+    outline: none;
+  }
+}
+
+.preview-el {
+  overflow: auto;
+  & img{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+}
+
+.container-flexible {
+  display: flex;
+  flex-direction: column;
+  @include media-breakpoint-up(lg) {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,15 @@
+@import "bootstrap/scss/bootstrap";
+
+html {
+  font-size: 16px;
+}
+
+html, body, #root {
+  height: 100%;
+  max-height: 100vh;
+};
+
+textarea {
+  resize: none;
+}
+
